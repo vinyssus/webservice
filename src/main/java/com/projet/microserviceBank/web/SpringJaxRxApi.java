@@ -18,7 +18,7 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @Component
-@Path("/banque")
+@Path("/banques")
 public class SpringJaxRxApi {
 
 	
