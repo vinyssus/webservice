@@ -1,11 +1,11 @@
 package com.projet.microserviceBank.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import com.projet.microserviceBank.entity.Compte;
 
-@Repository
+@RepositoryRestResource
 public interface CompteRepository extends JpaRepository<Compte, Long>{
 
 }
