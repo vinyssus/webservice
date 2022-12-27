@@ -10,15 +10,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import com.projet.microserviceBank.Repository.CompteRepository;
 import com.projet.microserviceBank.entity.Compte;
 
 
-
-
-
-@RequestMapping("comptes")
+@RequestMapping("/banque")
 public class SpringDataRest {
 
 	
